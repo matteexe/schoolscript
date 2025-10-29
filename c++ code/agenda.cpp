@@ -1,16 +1,3 @@
-
-Esercizio File Agenda Telefonica
-Vincenzo Esposito
-•
-23 ott (Ultima modifica: 27 ott)
-100 punti
-agenda.cpp
-Testo
-
-Commenti sul corso
-Il tuo lavoro
-Assegnato
-Commenti privati
 #include <iostream>
 #include <fstream>
 using namespace std;
