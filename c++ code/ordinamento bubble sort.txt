@@ -1,0 +1,29 @@
+/*CAMBIARE IL NOME DEL VETTORE*/
+
+void ordinamento(int vs[DMAX], int n)
+{
+	bool flag = true, checks = false;
+	int j = n, tmp;
+
+	while (flag == true)
+	{
+		flag = false;
+
+		for (int i = 0; i < j - 1; i++)
+		{
+
+			if (vs[i] > vs[i + 1])
+			{
+				tmp = vs[i];
+				vs[i] = vs[i + 1];
+				vs[i + 1] = tmp;
+				flag = true;
+			}
+		}
+		j = j - 1;
+	}
+
+	cout << "ordinamento completato" << endl;
+
+	return checks = true;
+}
